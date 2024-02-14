@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="shipment_type" table="x_1212975_shipment_shipmentcreate" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>shipment_type</element>
+            <name>x_1212975_shipment_shipmentcreate</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-11 17:45:14</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>shipment_type</sys_name>
+            <sys_package display_value="Shipment" source="x_1212975_shipment">05acce6993d40210b513b2ddfaba107d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Shipment">05acce6993d40210b513b2ddfaba107d</sys_scope>
+            <sys_update_name>sys_choice_x_1212975_shipment_shipmentcreate_shipment_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-11 17:45:14</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>shipment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Expressbees</label>
+            <language>en</language>
+            <name>x_1212975_shipment_shipmentcreate</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-11 17:46:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93b996ad93d40210b513b2ddfaba10a4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-11 17:46:30</sys_updated_on>
+            <value>eb</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>shipment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ecom</label>
+            <language>en</language>
+            <name>x_1212975_shipment_shipmentcreate</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-11 17:45:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>789996a193180210b513b2ddfaba1069</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-11 17:46:05</sys_updated_on>
+            <value>ec</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>shipment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ekart</label>
+            <language>en</language>
+            <name>x_1212975_shipment_shipmentcreate</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-11 17:45:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd69166593180210b513b2ddfaba1061</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-11 17:45:29</sys_updated_on>
+            <value>ek</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

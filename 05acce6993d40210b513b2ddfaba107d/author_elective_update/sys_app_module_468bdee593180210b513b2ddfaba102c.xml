@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="ShipmentBucket">8e8bdee593180210b513b2ddfaba1028</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>ShipmentBuckets</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1212975_shipment_shipmentbucket</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1212975_shipment.shipmentbucket_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-11 17:53:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>468bdee593180210b513b2ddfaba102c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ShipmentBuckets</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Shipment" source="x_1212975_shipment">05acce6993d40210b513b2ddfaba107d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shipment">05acce6993d40210b513b2ddfaba107d</sys_scope>
+        <sys_update_name>sys_app_module_468bdee593180210b513b2ddfaba102c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-11 17:53:47</sys_updated_on>
+        <timeline_page/>
+        <title>ShipmentBuckets</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Shipment">05acce6993d40210b513b2ddfaba107d</application>
+        <file_path/>
+        <instance_id>78b721411b1e311c65324089bd4bcbaa</instance_id>
+        <instance_name>dev201332</instance_name>
+        <name>sys_app_module_468bdee593180210b513b2ddfaba102c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="ShipmentBucket">8e8bdee593180210b513b2ddfaba1028</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>ShipmentBuckets</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1212975_shipment_shipmentbucket</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_1212975_shipment.shipmentbucket_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-11 17:53:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>468bdee593180210b513b2ddfaba102c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ShipmentBuckets</sys_name><sys_overrides/><sys_package display_value="Shipment" source="x_1212975_shipment">05acce6993d40210b513b2ddfaba107d</sys_package><sys_policy/><sys_scope display_value="Shipment">05acce6993d40210b513b2ddfaba107d</sys_scope><sys_update_name>sys_app_module_468bdee593180210b513b2ddfaba102c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-11 17:53:47</sys_updated_on><timeline_page/><title>ShipmentBuckets</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1189134302</payload_hash>
+        <record_name>ShipmentBuckets</record_name>
+        <reverted_from/>
+        <source>d1acce6993d40210b513b2ddfaba107f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-11 17:53:47</sys_created_on>
+        <sys_id>468bdee593180210b513b2ddfaba102f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d994dc71b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-11 17:53:47</sys_updated_on>
+        <type>Module</type>
+        <update_guid>8e8bdee5fe180210253adbc12f59082e</update_guid>
+        <update_guid_history>8e8bdee5fe180210253adbc12f59082e:1189134302</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ShipmentBuckets">494ca62993580210b513b2ddfaba105f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-11 19:06:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0c16c10042b04900834649ce084e2a04</sys_id>
+        <sys_metadata>468bdee593180210b513b2ddfaba102c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ShipmentBuckets</sys_name>
+        <sys_package display_value="Shipment" source="x_1212975_shipment">05acce6993d40210b513b2ddfaba107d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Shipment">05acce6993d40210b513b2ddfaba107d</sys_scope>
+        <sys_scope_delete display_value="">8f1db8c009ce4f02917574f730981331</sys_scope_delete>
+        <sys_update_name>sys_app_module_468bdee593180210b513b2ddfaba102c</sys_update_name>
+        <sys_update_version display_value="sys_app_module_468bdee593180210b513b2ddfaba102c">468bdee593180210b513b2ddfaba102f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-11 19:06:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
