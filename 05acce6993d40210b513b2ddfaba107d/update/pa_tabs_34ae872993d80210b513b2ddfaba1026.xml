@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA shipment - New Tab">bcae872993d80210b513b2ddfaba1023</canvas_page>
+        <name>shipment - New Tab</name>
+        <page display_value="PA shipment - New Tab">78ae872993d80210b513b2ddfaba1022</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-11 21:37:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>34ae872993d80210b513b2ddfaba1026</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>shipment - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Shipment" source="x_1212975_shipment">05acce6993d40210b513b2ddfaba107d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shipment">05acce6993d40210b513b2ddfaba107d</sys_scope>
+        <sys_update_name>pa_tabs_34ae872993d80210b513b2ddfaba1026</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-11 21:37:04</sys_updated_on>
+    </pa_tabs>
+</record_update>

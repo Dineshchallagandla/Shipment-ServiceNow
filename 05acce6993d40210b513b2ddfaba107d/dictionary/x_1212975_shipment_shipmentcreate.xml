@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a36d4ea993d40210b513b2ddfaba1053" label="ShipmentCreate" max_length="40" name="x_1212975_shipment_shipmentcreate" type="collection">
+        <element label="description" mandatory="true" max_length="40" name="address" type="string"/>
+        <element choice="1" label="Catagory" max_length="40" name="catagory" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hardware" value="hw"/>
+                <element inactive_on_update="false" label="Software" value="sw"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="city" type="string"/>
+        <element label="Contact" max_length="40" name="contact" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" label="Country" max_length="40" name="country" type="string"/>
+        <element attributes="encode_utf8=false" label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Location Name" max_length="40" name="location_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="order Type" max_length="40" name="order_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancel" value="ca"/>
+                <element inactive_on_update="false" label="New Order" value="no"/>
+                <element inactive_on_update="false" label="Return" value="r"/>
+            </choice>
+        </element>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element attributes="encode_utf8=false" label="requested for" mandatory="true" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element choice="1" label="Shipment Type" max_length="40" name="shipment_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ecom" value="ec"/>
+                <element inactive_on_update="false" label="Ekart" value="ek"/>
+                <element inactive_on_update="false" label="Expressbees" value="eb"/>
+            </choice>
+        </element>
+        <element choice="1" default="ip" label="State" max_length="40" name="state" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="0" value="ap"/>
+                <element inactive="true" inactive_on_update="true" label="Rejected" sequence="0" value="rj"/>
+                <element inactive_on_update="false" label="Delivered" sequence="1" value="de"/>
+                <element inactive_on_update="false" label="Inprogress" sequence="2" value="ip"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sub Catagory" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="applications" sequence="0" value="applications"/>
+                <element inactive_on_update="false" label="laptops" sequence="0" value="laptops"/>
+                <element inactive_on_update="false" label="Cpu" sequence="1" value="cpu"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="SubCatagory" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="application" sequence="0" value="Choice 1"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="0" value="Choice 2"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="1" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Created By" max_length="32" name="u_createdby" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="End date" max_length="40" name="u_glide_date_11" read_only="true" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="End Date" max_length="40" name="u_glide_date_12" read_only="true" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Order Date" max_length="40" name="u_glide_date_time_4" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Created Date" max_length="40" name="u_glide_date_time_6" read_only="true" type="glide_date_time"/>
+        <element label="Contact Number" max_length="40" name="u_integer_5" type="integer"/>
+        <element attributes="encode_utf8=false" choice="3" label="Assigned group" max_length="32" name="u_reference_1" reference="sys_user_group" reference_qual="default_assignee=^EQ" reference_qual_condition="default_assignee=^EQ" type="reference">
+            <choice/>
+        </element>
+        <element attributes="encode_utf8=false" dependent="u_reference_1" dependent_on_field="u_reference_1" label="assign to" max_length="32" name="u_reference_3" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element attributes="encode_utf8=false" label="Location" mandatory="true" max_length="32" name="u_reference_7" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="country" max_length="40" name="u_string_10" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location name" max_length="40" name="u_string_8" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="city" max_length="40" name="u_string_9" type="string"/>
+        <element attributes="encode_utf8=false" label="Updated By" max_length="32" name="u_updatedby" read_only="true" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="location"/>
+        </index>
+        <index name="index2">
+            <element name="requested_by"/>
+        </index>
+        <index name="index3">
+            <element name="u_createdby"/>
+        </index>
+        <index name="index4">
+            <element name="u_reference_1"/>
+        </index>
+        <index name="index5">
+            <element name="u_reference_3"/>
+        </index>
+        <index name="index6">
+            <element name="u_reference_7"/>
+        </index>
+        <index name="index7">
+            <element name="u_updatedby"/>
+        </index>
+    </element>
+</database>

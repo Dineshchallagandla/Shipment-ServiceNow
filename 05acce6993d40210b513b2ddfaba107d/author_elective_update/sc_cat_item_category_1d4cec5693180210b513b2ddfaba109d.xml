@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="shipment">846f578293140210b513b2ddfaba10cd</sc_cat_item>
+        <sc_category display_value="Software">2809952237b1300054b6a3549dbe5dd4</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 17:43:08</sys_created_on>
+        <sys_id>1d4cec5693180210b513b2ddfaba109d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Software.shipment</sys_name>
+        <sys_package display_value="Shipment" source="x_1212975_shipment">05acce6993d40210b513b2ddfaba107d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shipment">05acce6993d40210b513b2ddfaba107d</sys_scope>
+        <sys_update_name>sc_cat_item_category_1d4cec5693180210b513b2ddfaba109d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 17:43:08</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Shipment">05acce6993d40210b513b2ddfaba107d</application>
+        <file_path/>
+        <instance_id>78b721411b1e311c65324089bd4bcbaa</instance_id>
+        <instance_name>dev201332</instance_name>
+        <name>sc_cat_item_category_1d4cec5693180210b513b2ddfaba109d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="shipment">846f578293140210b513b2ddfaba10cd</sc_cat_item><sc_category display_value="Software">2809952237b1300054b6a3549dbe5dd4</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-13 17:43:08</sys_created_on><sys_id>1d4cec5693180210b513b2ddfaba109d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Software.shipment</sys_name><sys_package display_value="Shipment" source="x_1212975_shipment">05acce6993d40210b513b2ddfaba107d</sys_package><sys_policy/><sys_scope display_value="Shipment">05acce6993d40210b513b2ddfaba107d</sys_scope><sys_update_name>sc_cat_item_category_1d4cec5693180210b513b2ddfaba109d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-13 17:43:08</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1975708778</payload_hash>
+        <record_name>Software.shipment</record_name>
+        <reverted_from/>
+        <source>d1acce6993d40210b513b2ddfaba107f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 17:43:08</sys_created_on>
+        <sys_id>194cac9693180210b513b2ddfaba1059</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18da390bd400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 17:43:08</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>514cac960e18021085e449554d20e759</update_guid>
+        <update_guid_history>514cac960e18021085e449554d20e759:-1975708778</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Software.shipment">71fb349693580210b513b2ddfaba100f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 18:51:42</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>02a97ce2ac724cd381231d7fd451ad89</sys_id>
+        <sys_metadata>1d4cec5693180210b513b2ddfaba109d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Software.shipment</sys_name>
+        <sys_package display_value="Shipment" source="x_1212975_shipment">05acce6993d40210b513b2ddfaba107d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Shipment">05acce6993d40210b513b2ddfaba107d</sys_scope>
+        <sys_scope_delete display_value="">8f1db8c009ce4f02917574f730981331</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_1d4cec5693180210b513b2ddfaba109d</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_1d4cec5693180210b513b2ddfaba109d">194cac9693180210b513b2ddfaba1059</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 18:51:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
